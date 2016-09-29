@@ -14,9 +14,14 @@ void max_min_value(){
     cout<<"pls input 10 numbers"<<endl;
     int number,max,min;
     int count = 0;
+    bool first = true;
     while(count<10){
         cin>>number;
-        if(number>max){
+        if(first){
+            max = number;
+            min = number;
+            first = false;
+        }else if(number>max){
             max = number;
         }else if(number<min){
             min = number;
