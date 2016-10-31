@@ -1,0 +1,23 @@
+<html>
+<title> show images</title>
+<body>
+	<p><center><image id = "pic" src = "emoji.jpg" align = "center"></center></p>
+	<center><button type = "button" onclick="zoom(0.9)"> zoomIn</button>
+	<button type = "button" onclick="zoom(1.1)"> zoomOut</button></center>
+
+<script>
+window.onload = function(){zoom(1)}
+
+function zoom(zm) {
+img=document.getElementById("pic")
+wid=img.width
+ht=img.height
+img.style.width=(wid*zm)+"px"
+img.style.height=(ht*zm)+"px"
+
+}
+
+</script>
+</body>
+
+	

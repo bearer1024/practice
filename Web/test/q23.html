@@ -1,0 +1,17 @@
+<html>
+<head>
+<title> show images</title>
+<script type="text/javascript">
+
+$(document).mousemove(function(e){
+    $("#pic").stop().animate({left:e.pageX, top:e.pageY});
+});
+
+</script>
+</head>
+
+<body>
+<div><image id = "pic" src = "emoji.jpg" style="position:absolute;">
+</body>
+
+</html>
