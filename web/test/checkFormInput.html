@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <body>
+      <p>pls input your age</p>
+      <input id="age">
+      <button type="button" onclick="check()">Submit</button>
+      <div id="response"></div>
+      <script>
+	function check(){
+	var input,text;
+	input=document.getElementById("age").value;
+	console.log(input);
+	if(isNaN(input)||input>100||input<18){
+					   document.getElementById("response").innerHTML="Input is not valid";}
+					   else{
+					   document.getElementById("response").innerHTML="Input okay";}
+					   }
+					   </script>
+    </body>
+</html>
+
+
+
