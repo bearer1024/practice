@@ -1,0 +1,22 @@
+{
+  "name": "nodepractice",
+  "version": "1.0.0",
+  "description": "do some practice by using nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/bearer1024/practice.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "bearer1024",
+  "license": "UNLICENSED"
+}
