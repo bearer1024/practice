@@ -1,0 +1,12 @@
+#include<studio.h>
+
+struct people {
+  char[] firstname;
+  char[] lastname;
+}
+  int main (void) {
+    people bearer;
+    bearer.firstname='xin';
+    bearer.lastname='xiong';
+    printf("firstname is %s\n, lastname is %s\n", bearer.firstname,bearer.lastname);
+  }
