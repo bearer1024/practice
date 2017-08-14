@@ -1,0 +1,3 @@
+#! /bin/bash
+# output hello world
+echo "hello world"
