@@ -29,7 +29,7 @@ class Cat extends Animal{
 
 class TestOverridden{
     public static void main(String[] args){
-	
+    
     Animal animal = new Animal();
     Cat cat = new Cat();
     animal.weight = 5.1;

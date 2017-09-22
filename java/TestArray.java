@@ -2,6 +2,11 @@
  *to learn the usage of Array creation and initialization
 */
 class TestArray {
+    /**
+     * Describe <code>main</code> method here.
+     *
+     * @param args a <code>String</code> value
+     */
     public static void main(String [] args){
 	//create an array which the length is 5
 
