@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#nocallback").click(function(){
+        $("p").hide(1000);
+        alert("The paragraph is now hidden");
+    });
+});
+
+$().ready(function(){
+$("#callback").hide("slow",function(){
+alert("callback is much fun");
+});
+});
+</script>
+</head>
+<body>
+
+<button id="nocallback">Hide</button>
+<button id="callback">Hide with callback</button>
+
+<p>This is a paragraph with little content.</p>
+<div id = "divvv"> hello</div>
+</body>
+</html>
